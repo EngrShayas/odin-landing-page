@@ -39,7 +39,7 @@ header h1 {
 }
 
 /* hero section */
-section {
+section.hero {
     display: flex;
     justify-content: space-between;
     gap: 2em;
@@ -49,31 +49,57 @@ section.hero {
     padding: 4em 8em;
 }
 
-section .left {
+section.hero .left {
     max-width: 50%;
 }
 
-section img {
+section.hero img {
     max-width: 50%;
     height: auto;
 }
 
-section .left h2 {
+section.hero .left h2 {
     margin: 0;
     font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
 }
 
-section .left p {
+section.hero .left p {
     color: #e5e7eb;
 }
 
-section button {
+section.hero button {
     font-size: 14px;
     font-weight: 900;
     padding: 8px 24px;
     border-radius: 4em;
     background-color: #3882f6;
     color: #f9faf8;
+}
+
+/* section info */
+section.info {
+    padding-top: 2em;
+    padding-bottom: 2em;
+}
+section.info h2 {
+    text-align: center;
+    padding-bottom: 20px;
+}
+section.info .info-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 2em;
+    max-width: 90%;
+    margin: auto;
+}
+section.info .img {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #3882f6;
+    margin: auto;
+    border-radius: 16px;
 }
