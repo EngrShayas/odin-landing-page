@@ -69,11 +69,11 @@ section.hero .left p {
     color: #e5e7eb;
 }
 
-section.hero button {
+button {
     font-size: 14px;
     font-weight: 900;
     padding: 8px 24px;
-    border-radius: 4em;
+    border-radius: 1em;
     background-color: #3882f6;
     color: #f9faf8;
 }
@@ -127,6 +127,27 @@ section.quote p {
     padding: 0;
     margin: 0;
     text-align: right;
+}
+
+/* contact section */
+section.contact {
+    display: flex;
+    background-color: #3882f6;
+    justify-content: space-around;
+    align-items: center;
+    margin: 4em 8em;
+    border-radius: 16px;
+    color: #e5e7eb;
+    padding: 1.2rem 0;
+}
+section.contact h2 {
+    margin-bottom: 0;
+}
+section.contact p {
+    margin-top: 0;
+}
+section.contact .btn {
+    border: 1px solid #e5e7eb;
 }
 /* footer */
 
